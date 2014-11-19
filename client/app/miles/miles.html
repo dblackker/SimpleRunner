@@ -1,0 +1,26 @@
+<header>
+	<div class="container">
+		<h1>Miles</h1>
+		<p class="lead">You're log looks great! Keep it up.</p>
+		<!-- <img src="assets/images/yeoman.png" alt="I'm Yeoman"> -->
+	</div>
+</header>
+
+<div class="container-fluid">
+
+	<table class="table table-striped table-hover">
+		<thead>
+			<tr>
+				<th class="text-center">Date</th>
+				<th class="text-center">Miles</th>
+			</tr>
+		</thead>
+		<tbody>
+			<tr ng-repeat="mile in miles">
+				<td class="text-center">{{mile.date}}</td>
+				<td class="text-center">{{mile.numOfMiles}}</td>
+			</tr>
+		</tbody>
+	</table>
+	
+</div>
